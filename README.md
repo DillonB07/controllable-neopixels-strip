@@ -1,14 +1,14 @@
+# Controllable Neopixels - Strip
+Remote - https://github.com/DillonB07/controllable-neopixels-remote/
 
+This is a controllable neopixel program. Connect your neopixels to P0, 3V and GND on your micro:bit to use the program. *Download the program onto your micro:bit too!*
+
+You will need a second micro:bit for the remote.
+
+Generic template is below:
+---
 > Open this page at [https://dillonb07.github.io/controllable-neopixels-strip/](https://dillonb07.github.io/controllable-neopixels-strip/)
 
-## Use as Extension
-
-This repository can be added as an **extension** in MakeCode.
-
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/dillonb07/controllable-neopixels-strip** and import
 
 ## Edit this project ![Build status badge](https://github.com/dillonb07/controllable-neopixels-strip/workflows/MakeCode/badge.svg)
 
