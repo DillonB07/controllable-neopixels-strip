@@ -12,16 +12,6 @@ def on_received_number(receivedNumber):
     elif receivedNumber == 3:
         strip.show_color(neopixel.colors(NeoPixelColors.BLUE))
         state = 3
-    elif False:
-        pass
-    elif False:
-        pass
-    elif False:
-        pass
-    elif False:
-        pass
-    elif False:
-        pass
     elif receivedNumber == 9:
         strip.show_rainbow(1, 360)
         state = 9
@@ -40,8 +30,6 @@ def on_received_string(receivedString):
         strip.rotate(1)
     elif receivedString == "/":
         strip.rotate(-1)
-    else:
-        pass
     strip.show()
 radio.on_received_string(on_received_string)
 
